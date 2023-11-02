@@ -1,0 +1,17 @@
+body{
+    background-image: url(152.gif);
+    padding-left: 10%;
+    padding-right: 10%;
+                       
+}
+img{
+    width: 450px
+} 
+.bg{
+    background-color: gainsboro;
+    padding:20px;
+    margin: 15px;
+}
+h1{
+   text-decoration: underline;
+}
