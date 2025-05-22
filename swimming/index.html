@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"> <!--початок панелі навігації-->
+        <a href="#" class="navbar-brand">
+            <img src="download.jpg" class="ml-2" width="70px" alt="логотип">
+
+        </a> <!--логотип-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation"><!-- кнопка "бургер", куди згортається меню -->
+            <!-- <i class="fas fa-ellipsis-v"></i>   -->
+            <!-- <i class="fas fa-ellipsis-h"></i> -->
+            <!-- <img src="list-unordered.svg" alt=""> -->
+            <span class="navbar-toggler-icon"></span> <!-- Іконка кнопки, три горизонтальні полоски -->
+        </button> <!--кінець кнопки-->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav"> <!--початок блоку посилань-->
+            <ul class="navbar-nav "> <!--відкриття списку-->
+                <li class="nav-item active"> <!--елемент списку, active додаємо, щоб підсвічувало на якій ми сторінці-->
+                    <a href="#" class="nav-link">Батерфляй</a> <!--посилання-->
+                </li>
+                <li class="nav-item">
+                    <a href="#history" class="nav-link">Кроль</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#juke" class="nav-link">Спина</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#passat" class="nav-link">Брас</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="carousel-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="carousel-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="carousel-3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item active">
+                <img src="carousel-4.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8"> 
+                <h1></h1>
+                <p></p>
+            </div>
+            <div class="col-md-4"> <img src="" alt=""></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
