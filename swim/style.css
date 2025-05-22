@@ -1,0 +1,94 @@
+.photo {
+    width: 100%;
+    padding-top: 1.5rem;
+    transition: 0.8s;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.col-lg-4 {
+    overflow: hidden;
+}
+
+.navbar-toggler {
+    box-sizing: border-box;
+}
+
+.navbar-toggler:hover {
+    border: 2px solid blue;
+}
+
+.navbar-toggler:focus {
+    outline: 0;
+}
+
+.photo {
+    width: 100%;
+    padding-top: 1.5rem;
+    transition: 0.8s;
+}
+
+.photo:hover {
+    transform: scale(1.5);
+}
+
+/* для нижньої панелі */
+.footer {
+    background-color: #02052b;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+.socio-link {
+    font-size: 2rem;
+    color: #d5d5d5;
+    margin: 10px;
+}
+
+.socio-link:hover {
+    color: white;
+
+}
+
+.footer p {
+    color: #d5d5d5;
+}
+
+.img-wrap {
+    overflow: hidden;
+}
+
+p{
+    
+    font-family: "Gabriela", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1, h2, h3, h4 {
+  font-family: "Seymour One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+li {
+  font-family: "Seymour One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.div-read-more{
+    display: none;
+}
+button{
+    border: none;
+}
+.btn-read-more{
+    cursor: pointer;
+    user-select: none;
+    color: rgb(79, 176, 255);
+    font-weight: 900;
+}
